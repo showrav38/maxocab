@@ -1,0 +1,612 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* sub header start */
+.sub-menu{
+    background-color:  #F0C540;
+}
+.header-logo{
+    width: 170px !important;
+    transition: 0.4s;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.header-logo:hover{
+    transform: scale(1.2);
+}
+.menu{
+ padding: 20px 0;
+}
+.menu ul li{
+    padding: 0 15px;
+}
+.menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff !important;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover{
+    color: #273f44!important;
+
+}
+.menu ul li .act{
+    color: #273f44 !important;
+}
+
+.menu ul li a i{
+ font-size: 20px;
+ color: #fff;
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ margin: 0 10px;
+
+}
+.sm-custom .one, .sm-custom i{
+    color: #fff !important;
+}
+.menu ul li a i:hover{
+    color: #fff !important;
+}
+.menu ul li:last-child{
+    padding-right: 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.one{
+    font-size: 18px;
+}
+/* sub header end */
+ /* header end */
+
+ /* banner start */
+ .carousel-item{
+    background-image: url('../images/bann.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+
+ }
+ .carousel-item1{
+    background-image: url('../images/bannr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+
+ }
+ .carousel-item2{
+        background-image: url('../images/bannr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+ }
+.slider-img{
+ padding:  190px 0;
+}
+.p_0{
+    padding:0;
+}
+ .caro-button{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+ }
+ .carousel-indicators-custom .active {
+    background-color: #f5b911 !important;
+ /*    border: 1px solid #e49a12; */
+}
+
+.carousel-indicators-custom{
+    margin: 20px 0 !important;
+}
+.carousel-indicators-custom li{
+    background-color: #fff !important;
+}
+/* form control start */
+.banner{
+    background-color: #E5E5E5;
+}
+.btn-form{
+    background-color: #4f5a43 !important;
+    transition: 0.4s;
+}
+.btn-form:hover{
+    background-color: #4f5a70 !important;
+}
+.card-body{
+    background-color: #f0c540;
+    padding: 30px 32px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.card h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-control{
+    padding: 0 35px;
+}
+
+.form-custom{
+    padding: 15px 0;
+}
+.form-control-custom{
+    border: none;
+}
+.text-custom{
+    background: #fff;
+}
+#conditional_part, #conditional_part1, #conditional_part2{
+  display:none;
+}
+.form-custom2{
+    margin: 10px 0;
+}
+.return{
+        font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 33px;
+}
+.common-p h3{
+    margin:  0 15px;
+}
+.custom-checkbox{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #048BDD;
+}
+.custom-icon{
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    font-size: 30px;
+}
+/* form control end */
+ /* slider end */
+
+ /* description start */
+ .description{
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px 0;
+    background-color: #EEEEEE;
+ }
+ .common h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+    color:#273f44;
+ }
+
+ /* branding start */
+.m-t{
+    margin-top: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F0C540;
+    transition: 0.4s;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+.icon i{
+    font-size: 31px;
+    margin-top: 10px;
+    color: #fff;
+}
+.content{
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.content h1{
+    font-size: 18px;
+    color: #273F44;
+}
+.content p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #7D7D7D;
+}
+/* branding end */
+ /* description end */
+
+ /* catagroies start */
+.categories{
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px 0;
+    background-color: #2E4147;
+}
+.categories-top{
+    padding: 20px;
+}
+.categories .common h3{
+    color: #fff;
+}
+.vehicale{
+    background-color: #fff;
+    padding: 25px 15px;
+
+}
+.vehicale-content{
+    transition: 0.5s;
+}
+/* .vehicale-content:hover{
+    background-color: #F0C540;
+} */
+.vehicale-detalies-content{
+    margin-bottom: 15px;
+    color: #273F44;
+}
+.vehicale-detalies p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.vehicale-detalies h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn-vehicale{
+    width: auto;
+    height: auto;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background-color:#F0C540;
+    color: #fff;
+}
+.btn-vehicale p{
+  font-size: 12px;
+    margin-bottom: 0;
+  font-weight: bold;
+}
+.btn-vehicale .dollar{
+  font-size: 24px;
+}
+.btn-vehicale .dollar span{
+  font-size: 15px;
+}
+
+.vehical-icon span{
+    color: #F0C540;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.vertical-font{
+    font-size: 19px;
+    margin: 0 10px;
+}
+ /* catagroies End */
+
+ /* clients start */
+
+.slider{
+    background-color: #EEEEEE;
+    padding: 80px 0;
+}
+.testimonial{ 
+    margin: 20px 0 20px 50px;
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #F0C540;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: #F0C540;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #F0C540 transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #fff;
+}
+.owl-prev, .owl-next{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.owl-prev:hover, .owl-next:hover {
+ background-color:    #d8950a !important;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background-color:#d8950a ;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    color: #EEEEEE ;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 5px;
+    padding:0;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #EEEEEE ;
+    border: 1px solid grey;
+
+}
+
+
+
+/* clients end */
+
+
+
+
+
+
+
+
+/* about us start */
+.about{
+    background-color: #2a4045;
+}
+.about-img{
+    background-image: url('../images/maruti-suzuki-baleno-image-14680.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-top{
+    padding: 80px 0;
+}
+.about h3{
+    margin-left: 100px;
+    color: #fff;
+}
+.about-content{
+        padding: 20px 36px 0 16%;
+}
+
+.about-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.btn-about{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #F0C540 ;
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.btn-about:hover{
+    border: 2px solid #fff;
+}
+.btn-about a{
+    transition: 0.3s;
+    color: #fff !important;
+}
+.btn-about a:hover{
+    color: #E0F0FA !important;
+    text-decoration: none !important;
+}
+/* about us end */
+
+/* ques start */
+.question{
+    padding: 40px 0 25px 0;
+    background-color: #F0C540;
+}
+.feel{
+    color: #fff;
+}
+.free-content{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2a4045;
+}
+.num-content i{
+    font-size: 24px;
+    color: #2a4045;
+
+}
+.num-content p{
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+     color: #2a4045;
+}
+.btn-qus {
+    margin-top: -5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+.btn-qus:hover{
+    border: 2px solid #2a4045;
+}
+.btn-qus span{
+   color: #2a4045;
+}
+.btn-qus i{
+   color: #2a4045;
+}
+
+/* ques end */
+
+/* map start */
+.map-t{
+    padding: 0;
+}
+/* map end */
+/* footer start */
+.footer{
+    background-color:#2a4045; 
+}
+.rgba-white-light{
+    margin: 0 15%;
+    background-color: #686A73;
+}
+.mt-social{
+    margin: 0 auto;
+}
+.add a{
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+.add a:hover{
+ color: #F0C540 !important;
+}
+.footer-content p{
+    color: #686A73;
+    line-height: 1.7rem
+}
+/* social link */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-network a{
+    background-color: #686A73;
+}
+
+/* footer social icons */
+.social-network a.icoYoutube:hover {
+    background-color: #BD3518;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoIns:hover {
+    background-color:#D00074;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social a {
+ background-color: #23393D;   
+}
+/* social link */
+/* footer End */

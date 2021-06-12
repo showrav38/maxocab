@@ -1,0 +1,90 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.reservation{
+	font-family: 'Montserrat', sans-serif;
+	padding: 30px 0 70px 0;
+	background-color: #EEEEEE;
+}
+.banner{
+	background-image: url('../images/background3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.common-custom{
+	padding: 0;
+}
+.common{
+	padding: 15px 0px;
+}
+.card3{
+	background: none;
+	border: none;
+}
+.car2{
+	background: #fff;
+	border: none;
+}
+.card-body2{
+	background: none;
+}
+.form-control-custom2 {
+    border: none;
+    background: #efefef;
+}
+/* box */
+.reg-box{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	padding: 60px;
+	margin: 20px 0;
+}
+.information p{
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-bottom: 1px solid #2a4045;
+}
+.information a{
+	color:#2a4045  !important;
+}
+.vertical-font{
+	margin: 0 5px 0 0px;
+}
+/* button common */
+.btn-qus{
+	background:  none;
+	border: 2px solid #F0C540;
+	transition: 0.4s;
+	
+}
+.btn-qus a{
+	color: #2a4045 !important;
+}
+.btn-qus:hover{
+	border: 2px solid #2a4045;
+}
+.btn-qus-2{
+	background-color: #F0C540 !important;
+}
+.dollar-content p{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.small-custom{
+	font-size: 12px !important;
+	margin-bottom: 16px !important;
+}
+
+/* button common */
+.dollar-last-mar{
+	/* margin-left: 15px; */
+}
+.save{
+	margin-top: 10px !important;
+}
+
+
+
+/* box */

@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!-- fonts -->
+  
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reservation.css">
+
+  <link rel="stylesheet" href="css/media.css">
+  <title>Reservation</title>
+</head>
+<body>
+<!-- header start -->
+<!-- menu start -->
+<section class="sub-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col md-12">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid header-logo"></a>
+  <li class="nav-item d-lg-none d-md-block d-sm-block d-none">
+        <a class="nav-link sm-custom " href="#"> <i class="fas fa-phone-alt"></i>
+          <span class="one">123-456-7890</span></a>
+  </li>
+  <button class="navbar-toggler nav-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link act" href="reservation.html" target="blank">Reservation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Terms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+      <li class="nav-item d-lg-block d-none">
+        <a class="nav-link " href="#"> <i class="fas fa-phone-alt"></i>
+          <span class="one">123-456-7890</span></a>
+      </li>
+      
+      
+    </ul>
+  </div>
+</nav>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- menu end -->
+<!-- header end -->
+<!-- slider start -->
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class=" col-lg-4 m-auto p_res col-md-12">
+        <!-- card -->
+  <div class="card card3">
+<article class="card-body mx-auto" style="max-width: auto;">
+  <h4 class="card-title mt-3">Pick Up</h4>
+  <form>
+    <div class="form-group form-custom input-group">
+      <div class="input-group-prepend form-control-custom">
+        <span class="input-group-text text-custom"> <i class="fas fa-map-marker-alt"></i></span>
+     </div>
+    <select class="form-control form-control-custom">
+      <option selected="" class="chos">Choose office</option>
+      <option>GUjrat</option>
+      <option>punjab</option>
+      <option>New Delli</option>
+      <option>Mumbai</option>
+      <option>Tamil</option>
+    </select>
+  </div> 
+  <label for="form">
+    <input id="more_info" type="checkbox" class="custom-checkbox" checked>
+    <span class="return">return to the same location</span>
+  </label>
+  <div class="form-group input-group">
+    <div class="input-group-prepend form-control-custom">
+        <span class="input-group-text text-custom"> <i class="fas fa-calendar-alt"></i></span>
+     </div>
+        <input name="" id="filter-date" class="form-control form-control-custom" placeholder="Pickup Date" type="text">
+  </div>
+  <h4 class="card-title mt-3">Retrun</h4>
+  <div id="conditional_part">
+  <div class="form-group form-custom input-group">
+      <div class="input-group-prepend form-control-custom">
+        <span class="input-group-text text-custom"> <i class="fas fa-map-marker-alt"></i></span>
+     </div>
+    <select class="form-control form-control-custom">
+      <option selected="" class="chos">Choose office</option>
+      <option>GUjrat</option>
+      <option>punjab</option>
+      <option>New Delli</option>
+      <option>Mumbai</option>
+      <option>Tamil</option>
+    </select>
+  </div> 
+</div>
+  <div class="form-group input-group">
+    <div class="input-group-prepend form-control-custom">
+        <span class="input-group-text text-custom"> <i class="fas fa-calendar-alt"></i></span>
+     </div>
+        <input type="text" name="filter-date" class="form-control form-control-custom" placeholder="Return Date" id="filter-date"/>
+  </div>
+  <button type="button" class="btn btn-about btn-form"><a href="#">Our company <span><i class="fas fa-arrow-right"></i></span></a></button>
+</form>
+</article>
+</div> 
+<!-- card.// -->
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- slider end -->
+
+<!-- Reservation start -->
+<section class="reservation">
+  <div class="container">
+    <div class="row">
+       <!-- common tilte start -->
+      <div class="col-md-12  common-custom">
+        <div class="common common-p justify-content-start">
+        <h3>SELECT VEHICLE/ADD-ONS</h3>
+      </div>
+      </div>
+      <!-- common tilte end -->
+    </div>
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/1.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>Convertible</h3>
+                <p>Mercedes S-Class or Similar</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class=" col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$1,000/ <span class="small">Total</span></p>
+              <p class="small-custom">$1,000/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$1,000/ <span class="small">Total</span></p>
+              <p class="small-custom">$1,000/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $100</p>
+        </div>
+          </div>
+          <!-- single item end -->
+
+          </div>
+        </div>
+    </div>
+
+    <!-- car profile -->
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>ECONOMY</h3>
+                <p>Mini coper 3 or</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class="  col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$100/ <span class="small">Total</span></p>
+              <p class="small-custom">$100/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$110/ <span class="small">Total</span></p>
+              <p class="small-custom">$110/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $10</p>
+        </div>
+          </div>
+          <!-- single item end -->
+          
+          </div>
+        </div>
+    </div>
+    <!-- car profile -->
+    <!-- car profile -->
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/3.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>MINIVAN</h3>
+                <p>Volkswagen California or Similar</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-briefcase vertical-font"></i></span> 2 bags </p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class=" col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$1,200/ <span class="small">Total</span></p>
+              <p class="small-custom">$1,200/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$1,180/ <span class="small">Total</span></p>
+              <p class="small-custom">$1,180/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $20</p>
+        </div>
+          </div>
+          <!-- single item end -->
+          
+          </div>
+        </div>
+    </div>
+    <!-- car profile -->
+    <!-- car profile -->
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/4.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>PREMIUM</h3>
+                <p>Volkswagen Tiguan or Similar</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class="  col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$900/ <span class="small">Total</span></p>
+              <p class="small-custom">$9000/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$800/ <span class="small">Total</span></p>
+              <p class="small-custom">$800/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $100</p>
+        </div>
+          </div>
+          <!-- single item end -->
+          
+          </div>
+        </div>
+    </div>
+    <!-- car profile -->
+    <!-- car profile -->
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/5.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>SPECIALITY</h3>
+                <p>Ferrari F12 Berlinetta or Similar</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-briefcase vertical-font"></i></span> 2 bags </p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class=" col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$600/ <span class="small">Total</span></p>
+              <p class="small-custom">$600/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$589/ <span class="small">Total</span></p>
+              <p class="small-custom">$589/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $11</p>
+        </div>
+          </div>
+          <!-- single item end -->
+          
+          </div>
+        </div>
+    </div>
+    <!-- car profile -->
+    <!-- car profile -->
+    <div class="row reg-box">
+        <div class="col-md-12">
+          <div class="row">
+          <!-- single item start -->
+          <div class="col-md-3">
+            <div class="reg-box-img">
+              <img src="images/6.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <div class="vehicale-detalies">
+                <div class="vehicale-detalies-content text-uppercase">
+                <h3>STANDART</h3>
+                <p>BMW 3 Series Sedan or Similar</p>
+                </div>
+                <div class="vehical-icon justify-content-lg-start">
+               <p class="d-inline-block"> <span><i class="fas fa-swatchbook vertical-font"></i></span>4 seats</p>
+               <p class="d-inline-block"> <span><i class="fas fa-door-open vertical-font"></i></span> 2 doors </p>
+               <p class="d-inline-block"> <span><i class="fab fa-first-order-alt vertical-font"></i></span> A/C </p>
+             </div>
+             <div class="information">
+               <a href="#"><p class="d-inline-block">more information <i class="fas fa-arrow-down"></i></p></a>
+             </div>
+                
+              </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-6 text-lg-center">
+            <div class="dollar-content">
+              <p>$300/ <span class="small">Total</span></p>
+              <p class="small-custom">$300/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1"><a href="#">Pay Later</a></button>
+        </div>
+            
+          </div>
+          <div class="col-md-2 col-6 col-sm-6 dollar-last-mar text-lg-center">
+             <div class="dollar-content">
+              <p>$280/ <span class="small">Total</span></p>
+              <p class="small-custom">$280/ <span >Day</span></p>
+            </div>
+            <div class="qus-button">
+          <button type="button" class="btn btn-about btn-qus qus-button1 btn-qus-2"><a href="#">Pay Now</a></button>
+          <p class="small-custom small-custom1 save">SAVES YOU $20</p>
+        </div>
+          </div>
+          <!-- single item end -->
+          
+          </div>
+        </div>
+    </div>
+    <!-- car profile -->
+    
+
+  
+ 
+    </div>
+</section>
+<!-- Reservation end -->
+
+
+<!-- Footer -->
+<footer class="footer font-small indigo">
+  <div class="container">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-3 add">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">About us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-3 add">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Contact info</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 col-sm-4 mb-3 add">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Social links</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row-->
+    <hr class="rgba-white-light">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+      <div class="col-md-8 col-12 mt-5 footer-content">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+      </div>
+    </div>
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+    <!-- Grid row-->
+    <div class="row pb-3">
+      <!-- Grid column -->
+      <div class="col-md-12 text-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoYoutube" title="Rss"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#" class="icoIns" title="Linkedin"><i class="fab fa-instagram"></i></a></li>
+                </ul>  
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row-->
+  </div>
+  <!-- Footer Links -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> Techworld.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.datetimepicker.full.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+ $(document).ready(function(){
+    // checkbox
+    $('#more_info,#more_info1').change(function() {
+    if(this.checked != true){
+          $("#conditional_part, #conditional_part1").hide();
+     }
+  else{
+        $("#conditional_part, #conditional_part1").show();
+  }
+});
+    // date picker
+    jQuery('#filter-date, #search-from-date, #search-to-date').datetimepicker();
+
+});
+
+</script>
+</body>
+</html>
